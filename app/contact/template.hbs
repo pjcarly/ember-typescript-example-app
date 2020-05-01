@@ -1,0 +1,6 @@
+{{outlet}}
+
+{{#each this.model as |contact|}}
+  <ContactView @contact={{contact}} />
+  <hr>
+{{/each}}
